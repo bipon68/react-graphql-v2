@@ -37,7 +37,23 @@
         hero(episode: Episode): Character
     }
 `
-
+## Queries
+- REST and CRUD use well structured endpoints with HTTP verbs
+- GraphQL has only one endpoints `e.g /graphql` (that handles GET and POST)
+- It is expected to accept `GET` and `POST` request
+- POST Request 
+ - `JSON-encoded` body with query, variables and operationName
+ - Content-Type `application/graphal` treats the whole body as a query
+ - Queries look exactly the same, independent of the framework you are using
+- Frontend Libraries
+ - Lokka: simple client, that is a lightweight wrapper around fetch
+ - Relay: Facebooks's GraphQL framework, very complex
+ - Apollo Client: Well-made library for various JavaScript frameworks
+ - Recap 
+  - GraphQL service only uses one endpoints that handles GET and POST
+  - GraphQL is language-agnostic, so your queries look the same everywhere
+  - Use Apollo Client, if you want a good frontend library
+ 
 
 ## Topics cover
 - `Create Server`
