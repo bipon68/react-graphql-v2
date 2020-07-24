@@ -54,17 +54,23 @@
   - GraphQL is language-agnostic, so your queries look the same everywhere
   - Use Apollo Client, if you want a good frontend library
  
+## GraphiQL 
+- GraphiQL is an interactive API explorer
+- The Documentation Explorer generates documents form the schema 
+- GraphiQL supports auto-completion and parameterized queries
+- It is already included in the express-graphql package
 
 ## Topics cover
 - `Create Server`
 - `Schemas`
+- `Queries`
 - [Running an Express GraphQL Server](https://graphql.org/graphql-js/running-an-express-graphql-server/)
 - [GraphQL HTTP Server Middleware](https://github.com/graphql/express-graphql)
 
 
 RESTful APIs are great: they follow a resource-oriented approach that is clear and well structured. But when the data gets more and more complex, the routes get longer and longer, and sometimes it isn’t even possible to fetch the data you want with only one request. This is where GraphQL comes into play. It’s designed to work with data represented by a graph, and it has a powerful query syntax for traversing, retrieving, and mutating data.
 
-In this course, Markus Mühlberger will show you how to build a back-end GraphQL API. You'll start by using an interactive demo server to explore the basics of GraphQL and the syntax. Then you'll move on to implementing your own GraphQL server—a database of information about Star Wars characters—complete with queries, custom types, mutations, and a number of other advanced GraphQL features.
+In this course, **Markus Mühlberger** will show you how to build a back-end GraphQL API. You'll start by using an interactive demo server to explore the basics of GraphQL and the syntax. Then you'll move on to implementing your own GraphQL server—a database of information about Star Wars characters—complete with queries, custom types, mutations, and a number of other advanced GraphQL features.
 
 
 ## Source Files Description
