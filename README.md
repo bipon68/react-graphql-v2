@@ -7,11 +7,20 @@
 # [Build APIs With GraphQL](https://code.tutsplus.com/courses/build-apis-with-graphql/lessons/installing-the-prerequisites)
 ## Instructor: [Markus Mühlberger](https://tutsplus.com/authors/markus-muehlberger?_ga=2.7570034.110113772.1595497528-1627953844.1587647269)
 
+## Why graphQL
+- CRUD and REST are traditional approaches that have shortcomings
+- RESTful routing can get complicated with deep nesting
+- GraphQL looks at data as a graph instead relational tables
+- A query in GraphQL traverses the graph
+
 ## Topics cover
+- [Running an Express GraphQL Server](https://graphql.org/graphql-js/running-an-express-graphql-server/)
+- [GraphQL HTTP Server Middleware](https://github.com/graphql/express-graphql)
 
-GraphQL is an emerging technology for creating APIs and sharing data between the server and front-end. It was originally designed by engineers at Facebook, to help manage their increasingly complex API needs. With GraphQL, it isn't necessary for app developers to know about lots of different API endpoints to access different types and combinations of server data—instead, a single query language makes it easy to retrieve whatever data is needed from the server, with a uniform interface for features such as optimistic caching and real-time updates.
 
-In this course, you'll learn how to connect to a GraphQL endpoint from a React app. You'll learn how to configure the popular Apollo GraphQL client. This will let you seamlessly retrieve and integrate live server data into your app. You'll learn how to structure your queries, access real-time data, perform mutations (updates to the server data), and handle errors. And along the way, you'll build a great-looking trip planning map for the Helsinki public transportation system! 
+RESTful APIs are great: they follow a resource-oriented approach that is clear and well structured. But when the data gets more and more complex, the routes get longer and longer, and sometimes it isn’t even possible to fetch the data you want with only one request. This is where GraphQL comes into play. It’s designed to work with data represented by a graph, and it has a powerful query syntax for traversing, retrieving, and mutating data.
+
+In this course, Markus Mühlberger will show you how to build a back-end GraphQL API. You'll start by using an interactive demo server to explore the basics of GraphQL and the syntax. Then you'll move on to implementing your own GraphQL server—a database of information about Star Wars characters—complete with queries, custom types, mutations, and a number of other advanced GraphQL features.
 
 
 ## Source Files Description
