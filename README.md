@@ -1,4 +1,4 @@
-## Step by Step frontend app creation
+## Step by Step Build APIs With GraphQL
 - `yarn global add nodemon`
 - `yarn add express express-graphql`
 - `yarn add graphql`
@@ -13,7 +13,35 @@
 - GraphQL looks at data as a graph instead relational tables
 - A query in GraphQL traverses the graph
 
+## Schemas
+- Describe the data structure
+- language-agnostic schema language
+- Each GraphQL document needs a schema
+- A Schema defines types with fields, scalar types and query
+- GraphQL is strongly-typed, each field needs a type
+- The schema language is language-agnostic way to describe the structure
+- Example: Star Wars Universe `type Character{
+    id: String!
+    name: String
+    friends: [Character]
+    appearsIn: [Episode]
+}`
+- Example: Star Wars Universe `
+    type Episode {
+        title: String!
+        releaseDate: Date
+    }
+`
+- Example: Star Wars Universe `
+    type Query {
+        hero(episode: Episode): Character
+    }
+`
+
+
 ## Topics cover
+- `Create Server`
+- `Schemas`
 - [Running an Express GraphQL Server](https://graphql.org/graphql-js/running-an-express-graphql-server/)
 - [GraphQL HTTP Server Middleware](https://github.com/graphql/express-graphql)
 
